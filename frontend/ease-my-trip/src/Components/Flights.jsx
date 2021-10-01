@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import styled from "styled-components";
-import Carousel from "react-elastic-carousel";
+// import Carousel from "react-elastic-carousel";
 import styles from "./Flights.module.css";
 import moment from "moment";
 import downArrow from "./images/downArrow.png";
@@ -12,6 +12,9 @@ import vistara from "./images/vistara.png";
 import goFirst from "./images/goFirst.png";
 import airIndia from "./images/airIndia.png";
 import rupee from "./images/rupee.png";
+import leftArrow from "./images/leftArrow.png";
+import rightArrow from "./images/rightArrow.png";
+import calendar from "./images/calendar.png";
 
 export const Flights = () => {
     const [value, onChange] = useState(5955);
@@ -36,7 +39,14 @@ export const Flights = () => {
         }
     }, [])
 
-    
+    const CalenderSliderContent = styled.div`
+        width: 13%;
+        // margin-left: 2px;
+        border: 1px solid rgb(228,228,228);
+        border-right: none;
+        text-align: center;
+        // background-color: grey;
+    `;
 
     // const date = moment().format('ll');
 
@@ -184,17 +194,65 @@ export const Flights = () => {
                 <div className={styles.rightDiv}>
                     <div className={styles.calendarSlider}>
                         <div className={styles.sliderLeft}>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                            <div>
+                                <img style={{marginTop: "15px", paddingLeft: "8px", marginRight: "5px"}} src={leftArrow} alt=""/>
+                            </div>
+                            <CalenderSliderContent>
+                                <p style={{lineHeight: "0cm", paddingTop: "5px", fontSize: "15px"}}>Oct 03</p>
+                                <div className={styles.calenderData}>
+                                    <img src={rupee} alt="" />
+                                    <p>7845</p>
+                                </div>
+                            </CalenderSliderContent>
+                            <CalenderSliderContent>
+                                <p style={{lineHeight: "0cm", paddingTop: "5px", fontSize: "15px"}}>Oct 04</p>
+                                <div className={styles.calenderData}>
+                                    <img src={rupee} alt="" />
+                                    <p>5954</p>
+                                </div>
+                            </CalenderSliderContent>
+                            <CalenderSliderContent>
+                                <p style={{lineHeight: "0cm", paddingTop: "5px", fontSize: "15px"}}>Oct 05</p>
+                                <div className={styles.calenderData}>
+                                    <img src={rupee} alt="" />
+                                    <p>4155</p>
+                                </div>
+                            </CalenderSliderContent>
+                            <CalenderSliderContent>
+                                <p style={{lineHeight: "0cm", paddingTop: "5px", fontSize: "15px"}}>Oct 06</p>
+                                <div className={styles.calenderData}>
+                                    <img src={rupee} alt="" />
+                                    <p>5953</p>
+                                </div>
+                            </CalenderSliderContent>
+                            <CalenderSliderContent>
+                                <p style={{lineHeight: "0cm", paddingTop: "5px", fontSize: "15px"}}>Oct 07</p>
+                                <div className={styles.calenderData}>
+                                    <img src={rupee} alt="" />
+                                    <p>5495</p>
+                                </div>
+                            </CalenderSliderContent>
+                            <CalenderSliderContent>
+                                <p style={{lineHeight: "0cm", paddingTop: "5px", fontSize: "15px"}}>Oct 08</p>
+                                <div className={styles.calenderData}>
+                                    <img src={rupee} alt="" />
+                                    <p>5953</p>
+                                </div>
+                            </CalenderSliderContent>
+                            <CalenderSliderContent>
+                                <p style={{lineHeight: "0cm", paddingTop: "5px", fontSize: "15px"}}>Oct 09</p>
+                                <div className={styles.calenderData}>
+                                    <img src={rupee} alt="" />
+                                    <p>4155</p>
+                                </div>
+                            </CalenderSliderContent>
+                            <div style={{height: "100%", marginTop: "15px", paddingLeft: "5px", borderLeft: "1px solid rgb(228,228,228)"}}>
+                                <img src={rightArrow} alt=""/>
+                            </div>
                         </div>
-                        <div className={styles.sliderRight}></div>
+                        <div className={styles.sliderRight}>
+                            <img src={calendar} alt="" />
+                        </div>
                     </div>
                     <div className={styles.menuItems}>
                         <p style={{marginLeft: "3px"}}>AIRLINES</p>
@@ -247,7 +305,8 @@ export const Flights = () => {
                             </div>
                             <div className={styles.lastDetailDiv}>
                                 <p>Flight Detail</p>
-                            </div>
+                           </div>
+                           
                         </div>
                     })}
                     

@@ -353,11 +353,33 @@ body {
 .sliderLeft {
     height: 100%;
     width: 92%;
-    diplay: flex;
-    border: 1px solid black;
+    display: flex;
+    /* border: 1px solid black; */
 }
 .sliderRight {
     height: 100%;
     width: 8%;
-    border: 1px solid blue;
+    text-align: center;
+    border: 1px solid rgb(228,228,228);
+}
+.sliderRight > img {
+    height: 30px;
+    width: 30px;
+    /* text-align: center; */
+    margin-top: 13px;
+    /* margin-left: 10px; */
+}
+.calenderData {
+    display: flex;
+}
+.calenderData > img {
+    height: 12px;
+    width: 12px;
+    margin-left: 32px;
+}
+.calenderData > p {
+    color: rgb(239,102,20);
+    line-height: 0cm;
+    margin-top: 5px;
+    font-size: 14px;
 }
