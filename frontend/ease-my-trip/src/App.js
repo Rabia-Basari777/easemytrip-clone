@@ -1,12 +1,14 @@
 import { BrowserRouter } from "react-router-dom";
 import { Routes } from "./Components/Route";
+// import BookingPage from "./Components/BookingPage";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="App">
+        <div>
           <Routes />
+          {/* <BookingPage /> */}
         </div>
       </BrowserRouter>
     </>

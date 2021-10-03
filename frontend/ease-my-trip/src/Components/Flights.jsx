@@ -3,7 +3,7 @@ import axios from "axios";
 import styled from "styled-components";
 // import Carousel from "react-elastic-carousel";
 import styles from "./Flights.module.css";
-import moment from "moment";
+// import moment from "moment";
 import downArrow from "./images/downArrow.png";
 import indigo from "./images/indigo.png";
 import spicejet from "./images/spicejet.png";
