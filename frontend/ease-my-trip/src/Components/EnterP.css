@@ -1,0 +1,93 @@
+.main{
+    background-color: #fff;
+    width: 38%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+.div1{
+    width:90%;
+    padding:2% 0%;
+    color:#000;
+    font-size:22px;
+    background-color:#fff;
+    margin:12px auto;
+    font-weight:bold;
+}
+.back{
+    width: 17px;
+    height: 17px;
+    float: left;
+    background: url(https://www.easemytrip.com/images/new-login/left-arrow.svg) no-repeat 0 0;
+    background-size: 17px 17px;
+    margin: 7px 12px 0 0;cursor:pointer
+}
+.cut{
+    width:6%;
+    float:right;
+    cursor:pointer;
+}
+.clr{
+    width: 11px;
+    height: 11px;
+    float: right;
+    background: url(https://www.easemytrip.com/images/new-login/home-sub-sprite.png) no-repeat -96px -24px;
+    opacity: .3;
+    background-size: 200px 39px;
+    position: absolute;
+    top: 22px;
+    right: 30px;
+}
+.div2{
+    width:90%;
+    margin:20px auto;
+    background-color:#fff;
+}
+.div3{
+    width:100%;
+    float:left;
+    margin-bottom:20px;
+}
+.new{
+    width: 100%;
+    float: left;
+    color: #0f0f0f;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+}
+.inp{
+    width:100%;
+    float:left;
+    margin-top:10px;
+    margin-bottom:10px;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+    display:flex
+}
+.inp1{
+    width: 100%;
+    padding: 12px 10px;
+    outline: 0;
+    font-size: 15px;
+    color: #000000;border:0;background: #fff;
+}
+.btn{
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    background: #EF6614;
+    cursor: pointer;
+    font-family: open sans;
+    font-size: 18px;
+    font-weight: normal;
+    height: 43px;
+    -webkit-appearance: none;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 600;
+}

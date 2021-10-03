@@ -1,0 +1,80 @@
+.main{
+    background-color: #fff;
+    width: 38%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+.login{
+    width:90%;
+    padding:2% 0%;
+    color:#000;
+    font-size:12px;
+    background-color:#fff;
+    margin:12px auto;
+    font-weight:bold;
+}
+.log{
+    float: left;
+    font-size: 22px;
+    width: 75% !important;
+}
+.cut{
+    width:6%;
+    float:right;
+    cursor:pointer;
+}
+.in{
+    width: 11px;
+    height: 11px;
+    float: right;
+    background: url(https://www.easemytrip.com/images/new-login/home-sub-sprite.png) no-repeat -96px -24px;
+    opacity: .3;
+    background-size: 200px 39px;
+    position: absolute;
+    top: 22px;
+    right: 30px;
+}
+.user{
+    width: 100%;
+    float: left;
+    color: #0f0f0f;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.btn1{
+    border: medium none;
+    border-radius: 5px;
+    color: #fff;
+    background: #EF6614;
+    cursor: pointer;
+    font-family: open sans;
+    font-size: 18px;
+    font-weight: normal;
+    height: 43px;
+    -webkit-appearance: none;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.email{
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 43px;
+    width: 88%;
+    margin-left: 25px;
+}
+.terms{
+    margin-left: 25px;
+    margin-top: 10px;
+    float: right;
+}
