@@ -12,7 +12,7 @@ import netbanking from "./imav/netbanking.png";
 import wallets from "./imav/wallets.png";
 import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
-
+import { Link } from "react-router-dom";
 function Travellers() {
   return (
     <div>
@@ -1117,26 +1117,25 @@ function Travellers() {
               >
                 5954
               </h1>
-              <button
-                onClick={() => {
-                  alert("Ticket Booked Successfully");
-                }}
-                style={{
-                  border: "1px solid #eaeaea",
-                  fontSize: "19px",
-                  fontFamily: "sans-serif",
-                  width: "150px",
-                  height: "30px",
-                  marginLeft: "14px",
-                  marginTop: "6px",
-                  borderRadius: "4px",
-                  background: "#EF6614",
-                  color: "#FFFFFF",
-                  cursor: "pointer",
-                }}
-              >
-                Make Payment
-              </button>
+              <Link to="/flights/bookingpage/travellers/success">
+                <button
+                  style={{
+                    border: "1px solid #eaeaea",
+                    fontSize: "19px",
+                    fontFamily: "sans-serif",
+                    width: "150px",
+                    height: "30px",
+                    marginLeft: "14px",
+                    marginTop: "6px",
+                    borderRadius: "4px",
+                    background: "#EF6614",
+                    color: "#FFFFFF",
+                    cursor: "pointer",
+                  }}
+                >
+                  Make Payment
+                </button>
+              </Link>
             </div>
           </div>
         </div>

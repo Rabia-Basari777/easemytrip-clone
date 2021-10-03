@@ -4,6 +4,7 @@ import { Flights } from "./Flights";
 import { Home } from "./Home";
 import Booking from "./BookingPage";
 import { Travellers } from "./Travellers";
+import { Success } from "./Success";
 
 const Routes = () => {
   return (
@@ -18,8 +19,11 @@ const Routes = () => {
         <Route path="/flights/bookingpage" exact>
           <Booking />
         </Route>
-        <Route path="/flights/bookingpage/travellers">
+        <Route path="/flights/bookingpage/travellers" exact>
           <Travellers />
+        </Route>
+        <Route path="/flights/bookingpage/travellers/success">
+          <Success />
         </Route>
       </Switch>
     </>
