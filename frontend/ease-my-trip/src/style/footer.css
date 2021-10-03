@@ -1,0 +1,317 @@
+.footer {
+  width: 100%;
+  background: #333;
+  float: left;
+}
+* {
+  font-family: sans-serif;
+}
+div {
+  display: block;
+}
+.bottom_brdr {
+  width: 100%;
+  display: none;
+}
+.dark_clr {
+  background: #4263c1;
+  width: 24%;
+  float: left;
+  height: 11px;
+}
+.light_clr {
+  background: #468be8;
+  width: 76%;
+  float: left;
+  height: 11px;
+}
+.footer .footer_inr {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 25px 15px;
+}
+.footer .footer_inr {
+  width: 97%;
+}
+.ftr_col_1 {
+  width: 13%;
+  float: left;
+}
+.ftr_ttl {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+.ftr_col_1 ul {
+  margin: 6% 0;
+  padding: 0;
+}
+.ftr_col_1 ul li {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  line-height: 19px;
+  position: relative;
+}
+li {
+  border: 0;
+  outline: 0;
+}
+.ftr_col_1 ul li #chan {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  transition: all 0.8s ease 0s;
+}
+.skew2_v1 {
+  position: absolute;
+  bottom: 5px;
+  background: #e05747;
+  border-bottom: 2px solid #c23626;
+  border-right: 2px solid #c23626;
+  left: 77px;
+  padding: 0px 3px;
+  transform: skew(-20deg);
+  line-height: 1;
+}
+.ftr_col_2 {
+  width: 30%;
+  float: left;
+  border-left: 1px solid #505050;
+  border-right: 1px solid #505050;
+}
+.ftr_col_inr {
+  width: 88%;
+  margin: 0 auto;
+}
+.cards {
+  width: 100%;
+  margin: 20px 0 40px;
+  float: left;
+}
+.visa,
+.master,
+.american {
+  background-image: url(https://www.easemytrip.com/images/flight-img/ns-sprite.png);
+  float: left;
+  height: 37px;
+  width: 57px;
+  margin-right: 10px;
+}
+.visa {
+  background-position: -1px -35px;
+}
+.master {
+  background-position: -69px -35px;
+}
+.american {
+  background-position: -138px -35px;
+}
+.py_pal {
+  background-image: url(https://www.easemytrip.com/images/flight-img/ns-sprite.png);
+  float: left;
+  height: 37px;
+  width: 84px;
+  background-position: -315px -83px;
+}
+.clr {
+  clear: both;
+}
+.rupaylg {
+  background-image: url(https://www.easemytrip.com/images/common/rupay-lg-nw.png);
+  float: left;
+  height: 35px;
+  width: 57px;
+  background-position: 0 0;
+  margin-top: 6px;
+}
+.pcilg {
+  background-image: url(https://www.easemytrip.com/images/common/pci-logo.png);
+  float: left;
+  height: 35px;
+  width: 57px;
+  background-position: 0 0;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+.ftr_ttl {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+.social {
+  width: 100%;
+  float: left;
+  margin: 20px 0;
+}
+.fb_b,
+.tw_b,
+.gp_b,
+.yt_b,
+.li_b,
+.in_b {
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
+  background: #333;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+}
+.fb_n {
+  width: 21px;
+  height: 21px;
+  background: url(https://www.easemytrip.com/images/flight-img/ns-sprite.png) -9px -88px;
+  display: block;
+  margin: 7px auto;
+}
+.tw_n {
+  width: 21px;
+  height: 21px;
+  background: url(https://www.easemytrip.com/images/flight-img/ns-sprite.png) -49px -88px;
+  display: block;
+  margin: 7px auto;
+}
+.yt_n {
+  width: 23px;
+  height: 21px;
+  background: url(https://www.easemytrip.com/images/flight-img/ns-sprite.png) -125px -88px;
+  display: block;
+  margin: 7px auto;
+}
+.li_n {
+  width: 22px;
+  height: 21px;
+  background: url(https://www.easemytrip.com/images/flight-img/ns-sprite.png) -166px -87px;
+  display: block;
+  margin: 7px auto;
+}
+
+.in_n {
+  width: 21px;
+  height: 21px;
+  background: url(https://www.easemytrip.com/images/flight-img/ns-sprite.png) -205px -88px;
+  display: block;
+  margin: 7px auto;
+}
+.ftr_col_3 {
+  width: 15%;
+  float: left;
+  padding-left: 2%;
+}
+.ap_d_cn {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+.ap_d_cn span {
+  display: block;
+  font-size: 12px;
+}
+.hvr-wobble-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.pl_store {
+  width: 114px;
+  height: 39px;
+  background: url(https://www.easemytrip.com/images/flight-img/ns-sprite.png) -286px
+    0;
+  float: left;
+  margin: 15px 0;
+}
+.hvr-wobble-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.app_store {
+  width: 114px;
+  height: 39px;
+  background: url(https://www.easemytrip.com/images/flight-img/ns-sprite.png) -286px -41px;
+  float: left;
+}
+.clr {
+  clear: both;
+}
+.brdr_1 {
+  width: 100%;
+  height: 1px;
+  background: #505050;
+}
+
+.footer .footer_inr {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 25px 15px;
+}
+.footer .footer_inr {
+  width: 97%;
+}
+div {
+  -webkit-box-sizing: border-box;
+}
+.ftr_col_4 {
+  width: 54%;
+  float: left;
+  font-size: 12px;
+  color: #fff;
+  line-height: 43px;
+}
+.ftr_col_5 {
+  width: 46%;
+  float: left;
+}
+.ftr_col_5 ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+}
+.ftr_col_5 ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0 4px;
+}
+
+img {
+  max-width: 100%;
+}
+.skew2_v1 {
+  position: absolute;
+  bottom: 5px;
+  background: #e05747;
+  border-bottom: 2px solid #c23626;
+  border-right: 2px solid #c23626;
+  left: 77px;
+  padding: 0px 3px;
+  transform: skew(-20deg);
+  line-height: 1;
+}
+.n_deal2 {
+  text-align: center;
+  color: #fff;
+  font-size: 7px;
+  font-family: open sans;
+  font-weight: 500;
+  text-transform: uppercase;
+  transform: skew(15deg);
+  padding: 0;
+  margin: 0;
+}

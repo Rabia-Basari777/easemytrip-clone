@@ -1,0 +1,482 @@
+.bookingtopbox {
+  width: 700px;
+  height: 220px;
+  border: 1px solid white;
+  margin-top: 80px;
+  margin-left: 70px;
+  background: #f8f6f6;
+  border-radius: 4px;
+  clear: right;
+}
+
+.flightlogo {
+  width: 100%;
+
+  height: 30px;
+  display: flex;
+}
+
+.bookingunder {
+  width: 640px;
+  height: 150px;
+  border: 1px solid #dad6d6;
+  padding: 5px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: flex;
+  background: #ffffff;
+}
+
+.leftsmallbox {
+  flex-basis: 20%;
+  width: 100%;
+  height: 150px;
+}
+.logoandflightdetails {
+  display: flex;
+  width: 95%;
+  height: 50px;
+}
+
+.logosetting {
+  flex-basis: 25%;
+  width: 100%;
+  height: 50px;
+}
+
+.textafterlogo {
+  flex-basis: 72%;
+  width: 100%;
+  margin-left: 5px;
+
+  margin-top: 15px;
+}
+
+.anotherdetails {
+  display: flex;
+  width: 95%;
+  height: 50px;
+}
+
+.anotherdetailslogo {
+  flex-basis: 25%;
+  width: 100%;
+}
+
+.anotherdetailsextra {
+  flex-basis: 72%;
+  margin-top: 10px;
+
+  width: 100%;
+
+  flex-wrap: wrap;
+}
+
+.Gosmart {
+  width: 65px;
+  height: 18px;
+  border: 1px solid red;
+  margin-left: 15px;
+  margin-top: 10px;
+  border-radius: 50px;
+  display: block;
+  background: #eae8e8;
+  text-align: center;
+  background-color: white;
+}
+
+.rightbigbox {
+  display: flex;
+  width: 100%;
+  height: 150px;
+
+  margin-left: 50px;
+}
+
+.departurestyles {
+  flex-basis: 30%;
+  width: 100%;
+  height: 150px;
+}
+
+.departuredetails {
+  display: block;
+  width: 90%;
+  height: 60px;
+
+  margin-top: 20px;
+}
+.timeofdeparture {
+  display: block;
+  width: 90%;
+  height: 20px;
+
+  margin: "2px 2px";
+}
+
+.dateofdeparture {
+  display: block;
+  width: 90%;
+  height: 20px;
+
+  margin-top: 8px;
+}
+
+.middlelogo {
+  flex-basis: 40%;
+  width: 100%;
+  height: 150px;
+}
+
+.timeofdeparturess {
+  display: block;
+  width: 90%;
+  height: 90px;
+
+  margin-top: 50px;
+}
+
+.hdhdhhd {
+  display: block;
+  width: 90%;
+  height: 25px;
+
+  margin-left: 5px;
+}
+
+.lastdetails {
+  flex-basis: 30%;
+  width: 100%;
+  height: 150px;
+
+  margin-top: 28px;
+}
+
+/*-----------------*/
+.medicalrefundpolicybox {
+  width: 700px;
+  height: 100px;
+  border: 1px solid #dad6d6;
+  margin-top: 20px;
+  margin-left: 70px;
+
+  border-radius: 4px;
+}
+
+.topboxmedical {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+}
+
+.logostyles {
+  flex-basis: 10%;
+  height: 50px;
+
+  width: 100%;
+}
+
+.nextbox {
+  flex-basis: 88%;
+  height: 50px;
+}
+
+.freemedicalrefund {
+  display: flex;
+  height: 20px;
+
+  width: 100%;
+}
+
+.radiobuttonbox {
+  width: 99%;
+  height: 40px;
+
+  display: block;
+  margin-top: 1px;
+  background: #f7f7f7;
+  padding: 2px;
+}
+
+.yesradiobutton {
+  display: flex;
+  width: 100%;
+  height: 20px;
+
+  margin-left: 20px;
+}
+
+/*-----------------*/
+
+.goodtoknowbox {
+  width: 700px;
+  height: 150px;
+  border: 1px solid #dad6d6;
+  margin-top: 20px;
+  margin-left: 70px;
+
+  border-radius: 4px;
+}
+
+.goodtoknowmain {
+  width: 100%;
+  height: 50px;
+
+  display: flex;
+  background: #dcfbd0;
+  float: left;
+}
+
+.thumpsup {
+  display: block;
+  width: 40px;
+  height: 30px;
+
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.goodtoknowcontent {
+  display: block;
+  width: 650px;
+  height: 30px;
+
+  padding: 8px;
+}
+
+.bulletpoint {
+  display: block;
+  width: 690px;
+  height: 100px;
+
+  padding: 2px;
+  margin: 0;
+}
+
+/*----------*/
+.Pricesummary {
+  display: block;
+  border: 1px solid #dadad6;
+  width: 280px;
+  height: 150px;
+  float: right;
+  margin-right: 100px;
+  position: absolute;
+  margin-left: 840px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.Pricesummarysecond {
+  display: block;
+  border: 1px solid #dadad6;
+  width: 290px;
+  height: 300px;
+  position: absolute;
+  float: right;
+  margin-top: 200px;
+  margin-left: 840px;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+.continuebooking {
+  display: block;
+  border: 1px solid #dadad6;
+  width: 280px;
+  height: 25px;
+  position: absolute;
+  float: right;
+  margin-top: 460px;
+  margin-left: 845px;
+  border-radius: 4px;
+  background: #ef6614;
+  padding: 3px;
+}
+
+.Pricesummaryinnerbox {
+  width: 100%;
+  height: 50px;
+  display: block;
+}
+
+.Pricesummaryinnerboxnext {
+  width: 100%;
+  height: 100px;
+  display: flex;
+
+  background: #f8f6f6;
+}
+
+.Pricesummaryinnerboxnextnext {
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+
+.Pricesummaryinnerboxnextnextnext {
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+
+.grandtotalbox {
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+
+.haveyoucoupan {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  border-radius: 4px;
+  padding: 1px;
+
+  background: #2196f3;
+}
+
+.ghhh {
+  display: flex;
+  width: 100%;
+  height: 30px;
+}
+
+.hfhfhfh:after {
+  content: "";
+  position: absolute;
+  bottom: 162px;
+  width: 180px;
+  left: 8px;
+  right: 0;
+  height: 0.5px;
+  border-top: 1px solid grey;
+  z-index: -1;
+}
+
+.aftecongratulation:after {
+  content: "";
+  position: absolute;
+  bottom: 122px;
+  width: 285px;
+  left: 0;
+  right: 0;
+  height: 0.5px;
+  border-top: 1px solid grey;
+  z-index: -1;
+}
+
+.khaask:after {
+  content: "";
+  position: absolute;
+  bottom: 87px;
+  width: 0px;
+  left: 0;
+  right: 0;
+  height: 0.5px;
+  border-top: 1px solid grey;
+  z-index: -1;
+}
+
+.khaaskssajas:after {
+  content: "";
+  position: absolute;
+  bottom: 46px;
+  width: 285px;
+  left: 0;
+  right: 0;
+  height: 0.5px;
+  border-top: 1px solid grey;
+  z-index: -1;
+}
+
+.extrainformation {
+  display: block;
+  width: 100%;
+  height: 40px;
+}
+
+.tickmarkfirst {
+  display: flex;
+  width: 100%;
+  height: 30px;
+}
+
+.ticketsecond {
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+
+.ticketthird {
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+
+/**************/
+
+.addtravelinsurence {
+  width: 700px;
+  height: 220px;
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-left: 70px;
+
+  border-radius: 4px;
+}
+
+.firstlayer {
+  display: flex;
+  border: 1px solid black;
+  width: 100%;
+  height: 35px;
+}
+
+.secondlayer {
+  display: flex;
+  border: 1px solid black;
+  width: 100%;
+  height: 100px;
+  gap: 3%;
+}
+
+.firstimg {
+  display: block;
+  flex-basis: 20%;
+  border: 1px solid #eae8e8;
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  margin-left: 2%;
+}
+.secondimg {
+  display: block;
+  flex-basis: 20%;
+  border: 1px solid #eae8e8;
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.thirdlayer {
+  width: 99%;
+  height: 40px;
+
+  display: block;
+  margin-top: 1px;
+  background: #f7f7f7;
+  padding: 2px;
+}
+
+.middlebutton {
+  display: block;
+  width: 50%;
+  height: 30px;
+  border: 1px solid black;
+  margin-left: 38px;
+  background: #dff0d8;
+  border-radius: 4px;
+}

@@ -1,0 +1,166 @@
+.Bookinghead {
+  width: 100%;
+  min-height: 340px;
+  position: relative;
+  background-color: #2f81ed;
+  background-image: linear-gradient(to right, #2f80ed, #56ccf2);
+  padding-top: 20px;
+  font-family: sans-serif;
+}
+h1 {
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+  margin: 0 0 6px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: "Open Sans", sans-serif, Tahoma, Arial !important;
+  display: block;
+
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.fl_hp_i {
+  width: 42px;
+  height: 19px;
+  margin-right: 10px;
+  display: inline-block;
+  background: url(https://www.easemytrip.com/images/flight-img/home-sub-sprite.png)
+    no-repeat -323px -10px;
+}
+.trip {
+  display: flex;
+  margin-left: 11%;
+}
+.trip div {
+  color: white;
+  font-size: 13px;
+  margin-right: 20px;
+}
+.trip div button {
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+  padding: 5px;
+  color: #1853b7;
+}
+#same {
+  color: #cad5f4;
+  margin-top: 2px;
+}
+/*  */
+.selector {
+  width: 350px;
+}
+#selectField {
+  width: 100%;
+  padding: 15px 20px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+/* .hero {
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+  background-image: linear-gradient(#f44336, #730228);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+/* * {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+} */
+#selectField img {
+  width: 12px;
+  transition: transform 0.5s;
+}
+#list {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.options {
+  width: 100%;
+  padding: 15px 0 15px 70px;
+  list-style: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: relative;
+}
+.options img {
+  width: 25px;
+  position: absolute;
+
+  top: 12px;
+  left: 25px;
+}
+.options:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+/* .hide {
+  visibility: hidden;
+} */
+.rotate {
+  transform: rotate(180deg);
+}
+.dateand {
+  height: 70px;
+  width: 170px;
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  font-family: sans-serif;
+}
+.dateand input {
+  border: 1px solid white;
+}
+#datea {
+  height: 70px;
+  width: 170px;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  font-family: sans-serif;
+  display: flex;
+  padding-top: 22px;
+}
+#datea img {
+  width: 12px;
+  height: 12px;
+}
+#datea p {
+  margin-right: 50px;
+}
+.butt {
+  height: 70px;
+  width: 170px;
+  padding: 25px;
+  background-color: #ef6614;
+  box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+  font-family: sans-serif;
+  display: flex;
+  padding-top: 22px;
+  color: white;
+}
+.butt img {
+  width: 20px;
+  height: 20px;
+  margin-right: 7px;
+}

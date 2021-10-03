@@ -1,0 +1,149 @@
+* {
+  font-family: sans-serif;
+}
+
+.mainlogo {
+  height: 53px;
+  width: 140px;
+  display: inline-block;
+  background-size: 138px 54px;
+}
+div {
+  display: block;
+}
+.navbar {
+  width: 100%;
+  background: #fff;
+  height: 65px;
+  min-width: auto;
+  margin: auto;
+  /* border: 1px solid red; */
+
+  display: flex;
+  padding-top: 1px;
+  padding-bottom: 0px;
+  padding-left: 40px;
+}
+ul {
+  list-style-type: none;
+  border: 0;
+  outline: 0;
+  font-family: "Open Sans", sans-serif, Tahoma, Arial !important;
+  display: block;
+  /* list-style-type: disc; */
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.navbaroption {
+  float: left;
+  margin: 16px 0 0 0;
+  font-family: "Open Sans", sans-serif, Tahoma, Arial !important;
+  margin-left: 30px;
+}
+.navbaroption ul {
+  margin: 0;
+  float: left;
+  padding: 0;
+}
+.navbaroption ul li {
+  margin: 0;
+  list-style: none;
+  border-right: 1px solid #c7c7c7;
+  height: 5px;
+  border-right-width: 1px;
+  position: relative;
+  float: left;
+  font-size: 12px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.last {
+  border: none;
+}
+li {
+  padding: 10px 5px;
+  border: 0;
+  outline: 0;
+  font-family: "Open Sans", sans-serif, Tahoma, Arial !important;
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.navbaroption ul li {
+  font-weight: 600;
+}
+.down_arw {
+  border: solid black;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  position: relative;
+  top: -2px;
+  margin-left: 6px;
+}
+.support {
+  margin-left: 300px;
+  margin-top: 10px;
+}
+.hsupport {
+  display: flex;
+}
+.supportst {
+  display: flex;
+}
+.supporticon {
+  width: 19px;
+  height: 17px;
+  display: inline-block;
+  background: url(https://www.easemytrip.com/images/common/home-sub-sprite.png)
+    no-repeat -173px -5px;
+  vertical-align: bottom;
+  margin-right: 2px;
+  background-size: 300px 58px;
+}
+.supporticons {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  background: url(https://www.easemytrip.com/images/common/home-sub-sprite.png)
+    no-repeat -148px -5px;
+  vertical-align: bottom;
+  background-size: 300px 58px;
+}
+#marg {
+  margin-right: 10px;
+  font-size: 13px;
+}
+#account {
+  margin-left: 120px;
+  margin-top: 10px;
+}
+
+.flight {
+  text-decoration: none;
+  color: black;
+}
+.flight:after {
+  content: "";
+  position: absolute;
+  background-color: #ef6614;
+  height: 5px;
+  width: 0;
+  left: 0;
+  bottom: -28px;
+  /* transition: 0.3s; */
+}
+.flight:hover:after {
+  width: 100%;
+  color: #ef6614;
+}
+.flight:hover {
+  color: #ef6614;
+}
+#last {
+  border: none;
+}

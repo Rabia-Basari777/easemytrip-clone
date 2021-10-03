@@ -1,0 +1,9 @@
+.detailDiv {
+    width: 1052px;
+    /* height: 200px; */
+    border-radius: 3px;
+    margin-bottom: 15px;
+    /* position: relative; */
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(226, 226, 226);
+}
