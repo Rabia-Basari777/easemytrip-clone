@@ -38,7 +38,7 @@ router.get("/", async function (req, res) {
 
 router.get("/:id", async function (req, res) {
     try {
-        const getById = await Flight.findById().lean().exec();
+        const getById = await Flight.findById(req.params.id).lean().exec();
         return res.status(200).send(getById);
     }
     catch (err) {
