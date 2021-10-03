@@ -1,3 +1,4 @@
+
 import { BrowserRouter } from "react-router-dom";
 import { Routes } from "./Components/Route";
 // import BookingPage from "./Components/BookingPage";
@@ -12,6 +13,7 @@ function App() {
         </div>
       </BrowserRouter>
     </>
+
   );
 }
 
