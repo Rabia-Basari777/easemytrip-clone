@@ -550,6 +550,7 @@ export const Flights = () => {
                       lineHeight: "0cm",
                       paddingTop: "5px",
                       fontSize: "15px",
+                      marginTop: "10px",
                     }}
                   >
                     Oct 03
@@ -565,6 +566,7 @@ export const Flights = () => {
                       lineHeight: "0cm",
                       paddingTop: "5px",
                       fontSize: "15px",
+                      marginTop: "10px",
                     }}
                   >
                     Oct 04
@@ -580,6 +582,7 @@ export const Flights = () => {
                       lineHeight: "0cm",
                       paddingTop: "5px",
                       fontSize: "15px",
+                      marginTop: "10px",
                     }}
                   >
                     Oct 05
@@ -595,6 +598,7 @@ export const Flights = () => {
                       lineHeight: "0cm",
                       paddingTop: "5px",
                       fontSize: "15px",
+                      marginTop: "10px",
                     }}
                   >
                     Oct 06
@@ -610,6 +614,7 @@ export const Flights = () => {
                       lineHeight: "0cm",
                       paddingTop: "5px",
                       fontSize: "15px",
+                      marginTop: "10px",
                     }}
                   >
                     Oct 07
@@ -625,6 +630,7 @@ export const Flights = () => {
                       lineHeight: "0cm",
                       paddingTop: "5px",
                       fontSize: "15px",
+                      marginTop: "10px",
                     }}
                   >
                     Oct 08
@@ -640,6 +646,7 @@ export const Flights = () => {
                       lineHeight: "0cm",
                       paddingTop: "5px",
                       fontSize: "15px",
+                      marginTop: "10px",
                     }}
                   >
                     Oct 09
@@ -653,7 +660,7 @@ export const Flights = () => {
                   style={{
                     height: "100%",
                     marginTop: "15px",
-                    paddingLeft: "5px",
+                    paddingLeft: "15px",
                     borderLeft: "1px solid rgb(228,228,228)",
                   }}
                 >
@@ -675,7 +682,7 @@ export const Flights = () => {
                 <label
                   className={styles.toggleSwitch}
                   style={{
-                    marginTop: "12px",
+                    marginTop: "0px",
                     marginLeft: "5px",
                     marginRight: "2px",
                   }}

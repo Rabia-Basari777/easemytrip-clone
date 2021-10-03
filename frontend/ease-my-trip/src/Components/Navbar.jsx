@@ -58,7 +58,7 @@ const Navbar = () => {
           <div id="account" className="supportst">
             <div id="marg" className="supporticons"></div>
             <div id="marg">
-              <b>My Account</b>
+              <b>nn@gmail.com</b>
             </div>
             <div id="marg">
               <i className="down_arw"></i>

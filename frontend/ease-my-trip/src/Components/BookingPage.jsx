@@ -1,7 +1,19 @@
 import { useState } from "react";
 import styles from "../Styles/BookingPage.module.css";
 import { Link } from "react-router-dom";
-
+import rup from "./imav/rupees-icon-2.jpg";
+import rus from "./imav/mant1.png";
+import female from "./imav/female1.png";
+import rupee from "./imav/rupee.jpg";
+import redrupee from "./imav/redrupee.png";
+import flight from "./imav/flight.png";
+import gg from "./imav/G8.png";
+import CoverageIcon from "./imav/CoverageIcon.png";
+import bluetick from "./imav/bluetick.png";
+import black from "./imav/black.png";
+import icon from "./imav/f-icon-9.png";
+import { Navbar } from "./Navbar";
+import { Footer } from "./Footer";
 function Booking() {
   const [result, setShowresult] = useState(true);
 
@@ -9,199 +21,201 @@ function Booking() {
     setShowresult(false);
   };
   return (
-    <div>
-      {result ? (
-        <div className={styles.Pricesummary}>
-          <div className={styles.Pricesummaryinnerbox}>
-            <div className={styles.Pricesummaryinnerboxnext}>
-              <img
-                style={{ width: "30px", height: "30px", marginLeft: "5px" }}
-                src="Images/rupees-icon-2.jpg"
-              ></img>
-              <h1
-                style={{
-                  fontFamily: "sans-serif",
-                  fontSize: "16px",
-                  fontWeight: "normal",
-                  margin: "0",
-                  marginTop: "4px",
-                  marginLeft: "5px",
-                  color: "#1A1A1A",
-                }}
-              >
-                Price Summary
-              </h1>
-              <img
-                style={{
-                  width: "20px",
-                  height: "20px",
-                  marginLeft: "40px",
-                  marginTop: "4px",
-                }}
-                src="Images/mant1.png"
-              ></img>
-              <h4
-                style={{
-                  fontFamily: "sans-serif",
-                  fontSize: "12px",
-                  fontWeight: "normal",
-                  margin: "0",
-                  marginTop: "8px",
-                  marginLeft: "5px",
-                  color: "#1A1A1A",
-                }}
-              >
-                1
-              </h4>
-              <img
-                style={{
-                  width: "12px",
-                  height: "20px",
-                  marginLeft: "20px",
-                  marginTop: "4px",
-                }}
-                src="Images/female1.png"
-              ></img>
-              <h4
-                style={{
-                  fontFamily: "sans-serif",
-                  fontSize: "12px",
-                  fontWeight: "normal",
-                  margin: "0",
-                  marginTop: "8px",
-                  marginLeft: "5px",
-                  color: "#1A1A1A",
-                }}
-              >
-                1
-              </h4>
-            </div>
-          </div>
-          <div className={styles.Pricesummaryinnerboxnextnext}>
-            <h4
-              style={{
-                fontFamily: "sans-serif",
-                fontSize: "12px",
-                fontWeight: "normal",
-                margin: "0",
-                marginTop: "8px",
-                marginLeft: "5px",
-                color: "#1A1A1A",
-                textAlign: "left",
-              }}
-            >
-              Adult x 1
-            </h4>
-
+    <>
+      <Navbar />
+      <div style={{ marginBottom: "100px" }}></div>
+      <div className={styles.Pricesummary}>
+        <div className={styles.Pricesummaryinnerbox}>
+          <div className={styles.Pricesummaryinnerboxnext}>
             <img
-              style={{
-                width: "12px",
-                height: "18px",
-                marginLeft: "170px",
-                marginTop: "6px",
-              }}
-              src="Images/rupee.jpg"
+              style={{ width: "30px", height: "30px", marginLeft: "5px" }}
+              src={rup}
+              alt=""
             ></img>
-
-            <h5
-              style={{
-                fontFamily: "sans-serif",
-                fontSize: "12px",
-                fontWeight: "normal",
-                margin: "0",
-                marginTop: "8px",
-
-                color: "#1A1A1A",
-                textAlign: "right",
-              }}
-            >
-              5175
-            </h5>
-          </div>
-          <div className={styles.Pricesummaryinnerboxnextnextnext}>
-            <h4
-              style={{
-                fontFamily: "sans-serif",
-                fontSize: "12px",
-                fontWeight: "normal",
-                margin: "0",
-                marginTop: "8px",
-                marginLeft: "5px",
-                color: "#1A1A1A",
-                textAlign: "left",
-              }}
-            >
-              Total Taxes +
-            </h4>
-
-            <img
-              style={{
-                width: "12px",
-                height: "18px",
-                marginLeft: "150px",
-                marginTop: "6px",
-              }}
-              src="Images/rupee.jpg"
-            ></img>
-
-            <h5
-              style={{
-                fontFamily: "sans-serif",
-                fontSize: "12px",
-                fontWeight: "normal",
-                margin: "0",
-                marginTop: "8px",
-
-                color: "#1A1A1A",
-                textAlign: "right",
-              }}
-            >
-              779
-            </h5>
-          </div>
-          <div className={styles.grandtotalbox}>
-            <h4
+            <h1
               style={{
                 fontFamily: "sans-serif",
                 fontSize: "14px",
-                fontWeight: "bold",
+                fontWeight: "normal",
+                margin: "0",
+                marginTop: "4px",
+                marginLeft: "5px",
+                color: "#1A1A1A",
+              }}
+            >
+              Price Summary
+            </h1>
+            <img
+              style={{
+                width: "20px",
+                height: "20px",
+                marginLeft: "40px",
+                marginTop: "4px",
+              }}
+              src={rus}
+            ></img>
+            <h4
+              style={{
+                fontFamily: "sans-serif",
+                fontSize: "12px",
+                fontWeight: "normal",
                 margin: "0",
                 marginTop: "8px",
                 marginLeft: "5px",
-                color: "#D63B05",
-                textAlign: "left",
+                color: "#1A1A1A",
               }}
             >
-              Grand Total
+              1
             </h4>
-
             <img
               style={{
                 width: "12px",
-                height: "14px",
-                marginLeft: "135px",
-                marginTop: "8px",
+                height: "20px",
+                marginLeft: "20px",
+                marginTop: "4px",
               }}
-              src="Images/redrupee.png"
+              src={female}
             ></img>
-
-            <h5
+            <h4
               style={{
                 fontFamily: "sans-serif",
-                fontSize: "14px",
-                fontWeight: "bold",
+                fontSize: "12px",
+                fontWeight: "normal",
                 margin: "0",
                 marginTop: "8px",
-
-                color: "#D63B05",
-                textAlign: "right",
+                marginLeft: "5px",
+                color: "#1A1A1A",
               }}
             >
-              5954
-            </h5>
+              1
+            </h4>
           </div>
         </div>
-      ) : null}
+        <div className={styles.Pricesummaryinnerboxnextnext}>
+          <h4
+            style={{
+              fontFamily: "sans-serif",
+              fontSize: "10px",
+              fontWeight: "normal",
+              margin: "0",
+              marginTop: "12px",
+              marginLeft: "5px",
+              color: "#1A1A1A",
+              textAlign: "left",
+            }}
+          >
+            Adult x 1
+          </h4>
+
+          <img
+            style={{
+              width: "12px",
+              height: "18px",
+              marginLeft: "170px",
+              marginTop: "6px",
+            }}
+            src={rupee}
+          ></img>
+
+          <h5
+            style={{
+              fontFamily: "sans-serif",
+              fontSize: "15px",
+              fontWeight: "normal",
+              margin: "0",
+              marginTop: "8px",
+
+              color: "#1A1A1A",
+              textAlign: "right",
+            }}
+          >
+            5175
+          </h5>
+        </div>
+        <div className={styles.Pricesummaryinnerboxnextnextnext}>
+          <h4
+            style={{
+              fontFamily: "sans-serif",
+              fontSize: "12px",
+              fontWeight: "normal",
+              margin: "0",
+              marginTop: "8px",
+              marginLeft: "5px",
+              color: "#1A1A1A",
+              textAlign: "left",
+            }}
+          >
+            Total Taxes +
+          </h4>
+
+          <img
+            style={{
+              width: "12px",
+              height: "18px",
+              marginLeft: "150px",
+              marginTop: "6px",
+            }}
+            src={rupee}
+          ></img>
+
+          <h5
+            style={{
+              fontFamily: "sans-serif",
+              fontSize: "12px",
+              fontWeight: "normal",
+              margin: "0",
+              marginTop: "8px",
+
+              color: "#1A1A1A",
+              textAlign: "right",
+            }}
+          >
+            779
+          </h5>
+        </div>
+        <div className={styles.grandtotalbox}>
+          <h4
+            style={{
+              fontFamily: "sans-serif",
+              fontSize: "12px",
+              fontWeight: "bold",
+              margin: "0",
+              marginTop: "8px",
+              marginLeft: "5px",
+              color: "#D63B05",
+              textAlign: "left",
+            }}
+          >
+            Grand Total
+          </h4>
+
+          <img
+            style={{
+              width: "12px",
+              height: "14px",
+              marginLeft: "135px",
+              marginTop: "8px",
+            }}
+            src={redrupee}
+          ></img>
+
+          <h5
+            style={{
+              fontFamily: "sans-serif",
+              fontSize: "14px",
+              fontWeight: "bold",
+              margin: "0",
+              marginTop: "8px",
+
+              color: "#D63B05",
+              textAlign: "right",
+            }}
+          >
+            5954
+          </h5>
+        </div>
+      </div>
+
       <div className={styles.Pricesummarysecond}>
         <div className={styles.haveyoucoupan}>
           <h1
@@ -211,10 +225,10 @@ function Booking() {
               fontWeight: "bold",
               margin: "0",
               color: "white",
-              marginTop: "5px",
+              marginTop: "10px",
             }}
           >
-            Have a coupan code / Gift Voucher No ??
+            Have a coupan code/Gift Voucher No
           </h1>
         </div>
         <div className={styles.ghhh}>
@@ -223,28 +237,31 @@ function Booking() {
               fontFamily: "sans-serif",
               fontSize: "14px",
               fontWeight: "bold",
-              margin: "0",
-              marginTop: "8px",
-              marginLeft: "10px",
+
+              marginTop: "5px",
+              marginLeft: "15px",
 
               color: "#D63B05",
             }}
           >
             EMTNCF<span className={styles.hfhfhfh}></span>
           </h1>
-          <div className={styles.clearborder}>
+          <div
+            className={styles.clearborder}
+            style={{ padding: "5px", marginLeft: "0px" }}
+          >
             <h1
               style={{
                 fontFamily: "sans-serif",
                 fontSize: "13px",
                 fontWeight: "lighter",
                 margin: "0",
-                marginTop: "5px",
+                // marginTop: "5px",
                 marginLeft: "130px",
                 padding: "2px",
 
                 color: "#AFAFAF",
-                border: "1px solid black",
+
                 width: "70px",
                 height: "15px",
                 borderRadius: "4px",
@@ -260,15 +277,14 @@ function Booking() {
               fontFamily: "sans-serif",
               fontSize: "9px",
               fontWeight: "lighter",
-              margin: "0",
+              marginLeft: "3px",
               marginTop: "5px",
               padding: "2px",
               color: "#1A942B",
             }}
           >
             Congratulations! Zero Convenience Coupon has been applied
-            successfully. You have saved Rs.300 per passenger per sector as
-            convenience fees.<span className={styles.aftecongratulation}></span>
+            successfully.<span className={styles.aftecongratulation}></span>
           </h4>
         </div>
         <div className={styles.tickmarkfirst}>
@@ -306,7 +322,7 @@ function Booking() {
         </div>
         <div className={styles.ticketsecond}>
           <input type="radio" id="html" name="fav_language" value="HTML" />
-          <div style={{ display: "block" }}>
+          <div style={{ display: "block", height: "70px" }}>
             <label for="html">
               <h4
                 style={{
@@ -340,7 +356,13 @@ function Booking() {
           </div>
         </div>
         <div className={styles.ticketthird}>
-          <input type="radio" id="html" name="fav_language" value="HTML" />
+          <input
+            style={{ marginTop: "10px" }}
+            type="radio"
+            id="html"
+            name="fav_language"
+            value="HTML"
+          />
           <div style={{ display: "block" }}>
             <label for="html">
               <h4
@@ -350,7 +372,7 @@ function Booking() {
                   fontWeight: "medium",
                   margin: "0",
                   textAlign: "left",
-                  marginTop: "2px",
+                  marginTop: "10px",
                   marginLeft: "3px",
                   color: "#33333",
                 }}
@@ -362,7 +384,7 @@ function Booking() {
                   fontSize: "10px",
                   fontFamily: "sans-serif",
                   fontWeight: "lighter",
-                  margin: "0",
+                  marginTop: "20px",
                   textAlign: "left",
                   marginLeft: "3px",
                 }}
@@ -392,7 +414,7 @@ function Booking() {
         <div className={styles.flightlogo}>
           <img
             style={{ width: "30px", height: "30px", marginLeft: "20px" }}
-            src="Images/flight.png"
+            src={flight}
           ></img>
           <h6
             style={{
@@ -413,7 +435,7 @@ function Booking() {
               <div className={styles.logosetting}>
                 <img
                   style={{ width: "30px", height: "30px", marginTop: "10px" }}
-                  src="Images/flight.png"
+                  src={flight}
                 ></img>
               </div>
               <div className={styles.textafterlogo}>
@@ -432,7 +454,7 @@ function Booking() {
               <div className={styles.anotherdetailslogo}>
                 <img
                   style={{ width: "30px", height: "30px", marginTop: "10px" }}
-                  src="Images/G8.png"
+                  src={gg}
                 ></img>
               </div>
               <div className={styles.anotherdetailsextra}>
@@ -445,8 +467,8 @@ function Booking() {
                 style={{
                   fontSize: "8px",
                   margin: "0",
-                  marginTop: "2px",
-                  color: "#000000",
+                  marginTop: "4px",
+                  color: "green",
                 }}
               >
                 GoSmart
@@ -466,7 +488,7 @@ function Booking() {
                     color: "#6A6A68",
                     fontWeight: "lighter",
                     marginTop: "10px",
-                    marginLeft: "10px",
+                    marginLeft: "20px",
                   }}
                 >
                   Sun-31 Oct2021
@@ -547,32 +569,28 @@ function Booking() {
                 <div className={styles.hdhdhhd}>
                   <img
                     style={{ width: "25px", height: "25px" }}
-                    src="Images/flight.png"
+                    src={flight}
                     alt=""
                   />
                 </div>
                 <div className={styles.hdhdhhd}>
                   <div
                     style={{
-                      width: "60px",
-                      height: "13px",
+                      width: "80px",
+                      height: "18px",
                       border: "1px solid green",
-                      marginTop: "5px",
+                      marginTop: "10px",
                       marginLeft: "50px",
                       borderRadius: "50px",
+                      padding: "5px",
+                      fontSize: "8px",
+                      margin: "0",
+                      textAlign: "center",
+                      color: "#2DCA1C",
+                      fontFamily: "sans-serif",
                     }}
                   >
-                    <h1
-                      style={{
-                        fontSize: "8px",
-                        margin: "0",
-                        marginTop: "3px",
-                        color: "#2DCA1C",
-                        fontFamily: "sans-serif",
-                      }}
-                    >
-                      REFUNDABLE
-                    </h1>
+                    REFUNDABLE
                   </div>
                 </div>
               </div>
@@ -645,7 +663,7 @@ function Booking() {
           <div className={styles.logostyles}>
             <img
               style={{ width: "40px", height: "40px", padding: "3px" }}
-              src="Images/CoverageIcon.png"
+              src={CoverageIcon}
             ></img>
           </div>
           <div className={styles.nextbox}>
@@ -670,7 +688,7 @@ function Booking() {
                   marginLeft: "5px",
                   marginTop: "3px",
                 }}
-                src="Images/bluetick.png"
+                src={bluetick}
               ></img>
               <h3
                 style={{
@@ -751,7 +769,7 @@ function Booking() {
           <div className={styles.thumpsup}>
             <img
               style={{ width: "30px", height: "30px", padding: "3px" }}
-              src="Images/f-icon-9.png"
+              src={icon}
             ></img>
           </div>
           <div className={styles.goodtoknowcontent}>
@@ -781,14 +799,15 @@ function Booking() {
             </h3>
           </div>
         </div>
-        <div className={styles.bulletpoint}>
-          <ul>
+        <div style={{ marginTop: "15px" }} className={styles.bulletpoint}>
+          <ul style={{ marginTop: "15px" }}>
             <li
               style={{
                 fontSize: "12px",
                 fontFamily: "sans-serif",
                 fontWeight: "lighter",
                 textAlign: "left",
+                marginTop: "15px",
               }}
             >
               15 Kgs per passenger Check-in Baggage included for your selected
@@ -823,9 +842,7 @@ function Booking() {
                 fontWeight: "lighter",
                 textAlign: "left",
               }}
-            >
-              Remember to web check-in before arriving at the airport
-            </li>
+            ></li>
             <li
               style={{
                 fontSize: "12px",
@@ -833,9 +850,7 @@ function Booking() {
                 fontWeight: "lighter",
                 textAlign: "left",
               }}
-            >
-              Face masks are compulsory
-            </li>
+            ></li>
           </ul>
         </div>
       </div>
@@ -848,7 +863,7 @@ function Booking() {
               marginLeft: "5px",
               marginTop: "5px",
             }}
-            src="Images/black.png"
+            src={black}
           ></img>
           <div className={styles.goodtoknowcontent}>
             <h1
@@ -873,10 +888,7 @@ function Booking() {
                 textAlign: "left",
                 color: "#000000",
               }}
-            >
-              (Upon Selecting Travel Insurance ,You accept the Terms and
-              Conditions of the travel insurance policy)
-            </h3>
+            ></h3>
           </div>
         </div>
         <div className={styles.secondlayer}>
@@ -1033,6 +1045,7 @@ function Booking() {
                 marginTop: "4px",
                 borderRadius: "4px",
                 padding: "5px",
+                color: "red",
               }}
             >
               More then 36% of our customers choose to secure their trip
@@ -1058,7 +1071,9 @@ function Booking() {
           </div>
         </div>
       </div>
-    </div>
+      <div style={{ marginBottom: "20px" }}></div>
+      <Footer />
+    </>
   );
 }
 

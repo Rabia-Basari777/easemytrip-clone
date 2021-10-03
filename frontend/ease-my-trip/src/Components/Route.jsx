@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router";
 import { Flights } from "./Flights";
 import { Home } from "./Home";
 import Booking from "./BookingPage";
+import { Travellers } from "./Travellers";
 
 const Routes = () => {
   return (
@@ -18,7 +19,7 @@ const Routes = () => {
           <Booking />
         </Route>
         <Route path="/flights/bookingpage/travellers">
-          <Flights />
+          <Travellers />
         </Route>
       </Switch>
     </>
