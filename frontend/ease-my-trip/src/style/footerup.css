@@ -1,0 +1,90 @@
+.bottom_bdr_h {
+  width: 100%;
+  display: table;
+  background-color: #2f81ed;
+  background: linear-gradient(to right, #2f80ed, #56ccf2);
+}
+div {
+  font-family: "Open Sans", sans-serif, Tahoma, Arial !important;
+}
+body {
+  font-family: sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+}
+.dark_clr_h {
+  border-right: 1px solid #476fb9;
+  width: 23%;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 3%;
+  color: #fff;
+  font-size: 22px;
+}
+.light_clr_h {
+  border-left: 1px solid #68c2d6;
+  width: 77%;
+  display: table-cell;
+  vertical-align: middle;
+}
+.col_bot_1 {
+  width: 23%;
+  float: left;
+  margin-left: 10px;
+}
+div {
+  display: block;
+}
+.img_col {
+  float: left;
+  margin-right: 8px;
+}
+.eb_hp_i {
+  width: 42px;
+  height: 42px;
+  margin: 0;
+  float: left;
+  background: url(https://www.easemytrip.com/images/flight-img/home-sub-sprite.png)
+    no-repeat -1px -1px;
+}
+.col_bot_1 .rit_col {
+  float: left;
+  width: 73%;
+}
+.lp_hp_i {
+  width: 50px;
+  height: 37px;
+  margin: 0;
+  float: left;
+  background: url(https://www.easemytrip.com/images/flight-img/home-sub-sprite.png)
+    no-repeat -55px -2px;
+}
+.ed_hp_i {
+  width: 28px;
+  height: 29px;
+  margin: 0;
+  float: left;
+  background: url(https://www.easemytrip.com/images/flight-img/home-sub-sprite.png)
+    no-repeat -121px -5px;
+}
+.sp_hp_i {
+  width: 28px;
+  height: 36px;
+  margin: 0;
+  float: left;
+  background: url(https://www.easemytrip.com/images/flight-img/home-sub-sprite.png)
+    no-repeat -161px -3px;
+}
+.col_bot_1 .rit_col h6 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+.col_bot_1 .rit_col p {
+  font-size: 12px;
+  color: #ffffff;
+}
