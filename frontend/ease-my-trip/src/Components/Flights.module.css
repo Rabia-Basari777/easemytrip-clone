@@ -1,12 +1,12 @@
-
 body {
+
     background-color: rgb(238,238,238);
 }
-/* .flightsMainBody {
+.flightsMainBody {
     background-color: rgb(238,238,238);
-    height: 100vh;
+    height: 100%;
      width: 100%; 
-} */
+}
 .searchDiv {
     height: 100px;
     width: 100%;
@@ -42,6 +42,7 @@ body {
     font-size: 13px;
     font-weight: bold;
     margin-top: 8px;
+    margin-bottom: 8px;
 }
 .filterHead > p:last-child {
     margin-right: 15px;

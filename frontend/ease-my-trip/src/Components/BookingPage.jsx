@@ -202,7 +202,6 @@ function Booking() {
           </div>
         </div>
       ) : null}
-
       <div className={styles.Pricesummarysecond}>
         <div className={styles.haveyoucoupan}>
           <h1
