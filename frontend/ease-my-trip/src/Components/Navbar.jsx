@@ -2,7 +2,6 @@ import React from "react";
 import "../style/navbar.css";
 import { Link } from "react-router-dom";
 
-<<<<<<< HEAD
 const Navbar = () => {
   return (
     <>
@@ -72,5 +71,3 @@ const Navbar = () => {
 };
 
 export { Navbar };
-=======
->>>>>>> 63e1876004c5b2cf4f21bdc52e9ab8a8bbc0a1e1

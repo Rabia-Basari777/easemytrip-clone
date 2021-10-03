@@ -5,7 +5,7 @@ import { useState } from "react";
 import Dropdownre from "./Dropdownre";
 import arrow from "../image/arrow.png";
 
-const Booking = () => {
+const Bookingmenu = () => {
   const [selected, setSelected] = useState("From");
   const [select, setselect] = useState("To");
 
@@ -53,7 +53,7 @@ const Booking = () => {
   );
 };
 
-export { Booking };
+export { Bookingmenu };
 
 //  var selectField = document.getElementById("selectField");
 //  var selectText = document.getElementById("selectText");
