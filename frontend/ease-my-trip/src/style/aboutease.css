@@ -1,0 +1,27 @@
+div {
+  display: block;
+  font-family: "Open Sans", sans-serif, Tahoma, Arial !important;
+}
+* {
+  -webkit-box-sizing: border-box;
+}
+.mid_pnl {
+  background: #fff;
+  width: 100%;
+  display: inline-block;
+}
+.innerWrap {
+  width: 1200px;
+  margin: 26px auto;
+  padding: 0 15px;
+}
+.innerWrap h4 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+.para {
+  font-size: 13px;
+  color: #292828;
+}

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import logo from "./logo.svg";
 import "./App.css";
 
@@ -12,7 +13,22 @@ function App() {
       {/* <BookingPage /> */}
       <Travellers />
     </div>
+=======
+import { BrowserRouter } from "react-router-dom";
+import { Routes } from "./Components/Route";
+
+function App() {
+  return (
+    <>
+      <BrowserRouter>
+        <div className="App">
+          <Routes />
+        </div>
+      </BrowserRouter>
+    </>
+>>>>>>> 772bc08431f294685d791e9269e74cedb17598db
   );
 }
 
 export default App;
+
