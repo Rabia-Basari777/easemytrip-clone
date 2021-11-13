@@ -2,6 +2,8 @@
 
 As a part of our construct week we were given a problem statement to clone the website EaseMyTrip. We have tried to make a pixel-perfect clone of the original website in 6 days.
 
+## Note : To run the deployed project please clone the repo and  run the backend part on your localhost
+
 ## Team Size
 
 4
